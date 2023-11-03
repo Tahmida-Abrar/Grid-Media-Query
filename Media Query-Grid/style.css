@@ -39,18 +39,20 @@ body {
 .box_six {
   grid-area: T;
 }
+/* Midea Query */
 
-/*.box_one {
-  grid-column: 1/3;
-}*/
-/*.box_two {
-  grid-column: 1/3;
-}*/
-/*.box_three {
-  grid-column: 2/3;
-  grid-row: 2/5;
-}*/
-/*.box_fore {
-  grid-row: 3/7;
-  grid-column: 1/2;
-}*/
+@media screen and (max-width: 1280px) {
+  .box {
+    background-color: crimson;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box {
+    background-color: crimson;
+  }
+}
+@media screen and (max-width: 480px) {
+  .box {
+    background-color: pink;
+  }
+}
