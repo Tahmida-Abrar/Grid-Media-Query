@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+}
+.grid__container {
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "S S A A L L"
+    "S S M M L L"
+    "S S N N N T";
+  gap: 20px;
+}
+.box {
+  background-color: crimson;
+  border: 1px solid white;
+}
+.box_one {
+  grid-area: S;
+}
+.box_two {
+  grid-area: A;
+}
+.box_three {
+  grid-area: L;
+}
+.box_four {
+  grid-area: M;
+}
+.box_five {
+  grid-area: N;
+}
+.box_six {
+  grid-area: T;
+}
+
+/*.box_one {
+  grid-column: 1/3;
+}*/
+/*.box_two {
+  grid-column: 1/3;
+}*/
+/*.box_three {
+  grid-column: 2/3;
+  grid-row: 2/5;
+}*/
+/*.box_fore {
+  grid-row: 3/7;
+  grid-column: 1/2;
+}*/
